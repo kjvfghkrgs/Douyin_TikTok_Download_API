@@ -1,10 +1,10 @@
 TokenManager:
   tiktok:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.7258.155 Safari/537.36)
       Referer: https://www.tiktok.com/
-      Cookie: CykaBlyat=XD
+      Cookie: passport_csrf_token=5c668f924888bc708c11d01c14306bf7; passport_csrf_token_default=5c668f924888bc708c11d01c14306bf7; store-idc=alisg; tt-target-idc=alisg; d_ticket=46bd103cf186c1be4ca956ea4e448c90d0f29; multi_sids=7427892330729915399%3A85beddaa6226c3a585477995d75020a7; cmpl_token=AgQQAPOFF-RPsLcrwh_TM50-8ulCrPvfP5AOYN2bRw; sid_guard=85beddaa6226c3a585477995d75020a7%7C1753800202%7C15552000%7CSun%2C+25-Jan-2026+14%3A43%3A22+GMT; uid_tt=db9cb1217f467c1a9f55c0784e8bf46acef2a95a5c3d365f7a0d03fbd557af4b; uid_tt_ss=db9cb1217f467c1a9f55c0784e8bf46acef2a95a5c3d365f7a0d03fbd557af4b; sid_tt=85beddaa6226c3a585477995d75020a7; sessionid=85beddaa6226c3a585477995d75020a7; sessionid_ss=85beddaa6226c3a585477995d75020a7; store-country-code=vn; store-country-code-src=uid; install_id=7532513832117585682; ttreq=1$6d3a4dd249c89607103534420e5f5cc8724facec; msToken=bwua7B3HgDmd79CRlMgDl8mGxQrSTrB-rPMABU9qj-NiivgugNsTqQkFH-sWP_yvFe-RPpBCczroXWGwXUZTo53FCJTIXk7DYYTB-PzixzQ=; odin_tt=d708e2472be06d7f06cd05ed6ae2e9f7243746550f62e1acc800565fbcfacfbb68e70336a3cd421ee3c371b1cbb6f9477e0ee2a4924c07a4dd7f058087d697a35ec6747c5c8788eb57484eb1ccc8ba47; store-country-sign=MEIEDBXAZK--UI5NAIhNaAQghNnxkwodg5VYAbSHZ3hyL1mABwPOMWpg4Nlt9Inr_EcEEJwzhvSr3KonV2a0L2ZAz1Q
 
     proxies:
-      http:
+      http: http://127.0.0.1:40000
       https:
